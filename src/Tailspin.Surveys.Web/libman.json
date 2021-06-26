@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [],
+  "defaultDestination": "wwwroot/lib",
+  "libraries": [
+        {
+            "library": "twitter-bootstrap@3.4.0",
+            "destination": "wwwroot/lib/bootstrap/dist"
+        },
+        {
+            "library": "jquery@3.3.1",
+            "destination": "wwwroot/lib/jquery/dist"
+        },
+        {
+            "library": "jquery-validation-unobtrusive@3.2.11",
+            "destination": "wwwroot/lib/jquery/dist"
+        },
+        {
+            "library": "angular-ui-bootstrap@2.5.6",
+            "destination": "wwwroot/lib/angular-bootstrap"
+        },
+        {
+            "library": "angular.js@1.7.5",
+            "destination": "wwwroot/lib/angular"
+        }
+    ]
+}

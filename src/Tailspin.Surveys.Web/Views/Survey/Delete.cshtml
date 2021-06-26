@@ -1,0 +1,17 @@
+﻿@model SurveyDTO
+@{
+    ViewData["Title"] = "Delete Survey";
+}
+<h2>@ViewData["Title"]</h2>
+
+<h3 class="alert-danger">Are you sure you want to delete this survey?</h3>
+
+<partial name="_ValidationPartial" />
+
+<form asp-action="Delete" method="POST" asp-route-id="@Model.Id">
+    <partial name="_ConfirmPartial" />
+</form>
+
+<partial name="_SurveyDetailPartial" model="Model"/>
+
+

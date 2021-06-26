@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Tailspin.Surveys.Common Class Library</Description>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Tailspin.Surveys.Common</AssemblyName>
+    <PackageId>Tailspin.Surveys.Common</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  
+</Project>

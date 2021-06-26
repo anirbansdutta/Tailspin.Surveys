@@ -1,0 +1,9 @@
+﻿@model SurveyDTO
+@{
+    ViewData["Title"] = "Delete Survey Result";
+}
+<h2>@ViewData["Title"]</h2>
+
+<partial name="_ValidationPartial" />
+<p class="alert-success">@ViewBag.Message</p>
+<partial name="_SurveyDetailPartial" model="Model"/>

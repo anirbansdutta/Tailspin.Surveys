@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ 
+  <PropertyGroup>
+    <Description>Tailspin.Surveys.Security Class Library</Description>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Tailspin.Surveys.Security</AssemblyName>
+    <PackageId>Tailspin.Surveys.Security</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tailspin.Surveys.Data\Tailspin.Surveys.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="5.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+    <PackageReference Include="System.Security.Claims" Version="4.3.0" />
+  </ItemGroup>
+</Project>

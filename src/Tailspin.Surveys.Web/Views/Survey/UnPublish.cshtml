@@ -1,0 +1,15 @@
+﻿@model SurveyDTO
+@{
+    ViewData["Title"] = "Unpublish Survey";
+}
+<h2>@ViewData["Title"]</h2>
+
+<h3 class="alert-danger">Are you sure that you want to unpublish this survey?</h3>
+
+<partial name="_ValidationPartial" />
+
+<form asp-action="UnPublish" method="POST" asp-route-id="@Model.Id">
+    <partial name="_ConfirmPartial" />
+</form>
+
+<partial name="_SurveyDetailPartial" model="Model"/>

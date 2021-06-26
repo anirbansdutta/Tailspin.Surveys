@@ -1,0 +1,11 @@
+﻿@model QuestionDTO
+@{
+    ViewData["Title"] = "Add Question";
+}
+<h2>@ViewData["Title"]</h2>
+
+<partial name="_ValidationPartial" />
+
+<form asp-action="Create" method="post">
+    <partial name="_QuestionEditPartial" model="Model"/>
+</form>
